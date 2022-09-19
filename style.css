@@ -1,0 +1,129 @@
+
+body, html{
+    margin: 0;
+    height: 100%;
+
+}
+.navBar {
+    background-color: #F5F3F5;
+    overflow: hidden;
+    font-family: "Avenir", sans-serif;
+    margin: 0;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+    float: left;
+    color: #302B27;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+    background-color: #AEB9D5;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navBar a.active {
+    background-color: #576CA8;
+    color: white;
+}
+
+
+
+.bgImage{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("imgs/campus-skyline.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+}
+
+.mainSection{
+    font-family: "Avenir", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.mainSection p {
+    font-size: 20px ;
+}
+
+.aboutBody{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+
+
+}
+.aboutBody h1{
+
+    font-family: "Avenir", sans-serif;
+    color: #576CA8;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    margin-bottom: 0;
+    text-align: center;
+
+
+
+}
+
+.contactBodyChild {
+    width: 50%;
+    float: left;
+
+}
+
+.contactBodyChild p{
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    color: #576CA8;
+    font-size: 25px;
+    margin: 0;
+}
+
+.aboutBodyChild{
+    width: 50%;
+    float: left;
+    text-align: justify;
+
+
+}
+
+.aboutBodyChild p{
+    float: right;
+    font-family: "Avenir", sans-serif;
+    color: #576CA8;
+    padding-right: 25px;
+    margin: 0;
+    font-size: 25px;
+
+}
+.aboutBodyChild img{
+    width: 100%;
+    padding-left: 25px;
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    background-color: #576CA8;
+}
+
